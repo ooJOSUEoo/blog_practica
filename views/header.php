@@ -16,7 +16,7 @@
     <header>
         <div class="contenedor">
             <div class="logo izquierda">
-                <p><a href="#">Mi primer blog</a></p>
+                <p><a href="<?php echo RUTA; ?>">Mi primer blog</a></p>
             </div>
             <div class="derecha">
                 <form name="busqueda" class="buscar" action="<?php echo RUTA; ?>/buscar.php" method="get">
