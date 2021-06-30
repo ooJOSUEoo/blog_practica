@@ -11,7 +11,7 @@ function conexion($bd_config){
 }
 
 function limpiarDatos($datos){
-    $datos = trin($datos);
+    $datos = trim($datos);
     $datos = stripslashes($datos);
     $datos = htmlspecialchars($datos);
     return $datos;
