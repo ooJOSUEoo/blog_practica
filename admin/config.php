@@ -1,5 +1,5 @@
 <?php
-define('RUTA','http://localhost/Blog_con_PHP-%20MySQL/');
+define('RUTA','http://localhost/Blog_con_PHP-%20MySQL');
 
 $bd_config = array(
     'basedatos' => 'blog_practicaaw',
