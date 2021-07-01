@@ -59,5 +59,12 @@ function fecha($fecha){
     $fecha = "$dia de $meses[$mes] del $year";
     return $fecha;
 }
+//Comprobar la sesion de admin
+function comprobarSession(){
+
+    if (!isset($_SESSION['admin'])) {
+        header('Location: ' . RUTA);
+    }
+}
 
 ?>
